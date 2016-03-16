@@ -1,0 +1,12 @@
+{
+  "name": "CDOService",
+  "version": "1.0.0",
+  "description": "Servicio utilizado por cdo.report",
+  "main": "backend2.js",
+  "node": "backend2.js",
+  "npm start": "backend2.js",
+    "scripts": {
+    "install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
+  }
+}

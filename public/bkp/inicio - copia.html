@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DESARROLLO</title>
+    <meta name="author" content="Martin Hidalgo">        
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet" type="text/css">
+    <link href="css/stylestep.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/index2.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="nav">
+       <ul id="navlist">
+
+         <li><input id="next_btn0" onclick="next_step0()" type="button" value="APROVISIONADOR"></li>
+         <li><input id="next_btn1" onclick="next_step1()" type="button" value="EXTRACTOR"></li>
+         <li><input id="next_btn2" onclick="next_step2()" type="button" value="COMPONENTE"></li>
+         <li><input id="next_btn3" onclick="next_step3()" type="button" value="METRICA"></li>
+       	 <li><select id="username" style="font-weight:bold;"></select></li>
+         <li><label class=estiloLabel>Bienvenido </label></li> 
+	   </ul>
+     </div>
+
+
+<fieldset id="Cero">
+      
+        <div id="contentbar">
+          <ul id="progressbar_4">
+           <li id="timg01"onclick="crear_aprovisionador()">Crear Aprovisionador</li>
+           <li id="timg02"onclick="revisar_aprovisionador()">Revisar Aprovisionador</li>
+           <li id="timg03"onclick="simular_aprovisionador()">Simular Aprovisionador</li>
+           <li id="timg04"onclick="asignar_aprovisionador()">Asignar Aprovisionador</li>
+          </ul>
+       </div>
+        <fieldset id="pimg01">
+          <div id="section1">
+           <div id="firstcontrol">
+             <form> <input type="button" id="listarCampos" value="Mostrar datos"/> </form>
+           </div>
+
+          <div id="firstcontrol01">
+             <form id="contenedor">
+
+	        <input type="text"  id="nombreAprovisionador" placeholder=" Ingrese nombre de Aprovisionador"/>
+	        <input type="button" id="guardarAprov" value="GUARDAR APROVISIONADOR"/>
+			<input type="button" id="editarAprov" value="EDITAR APROVISIONADOR"/>
+			<input type="button" id="eliminarAprov" value="ELIMINAR APROVISIONADOR"/>
+			<input type="button" id="vaciarCamposCubos" value="Reset"/>
+      	     </form>
+          </div>
+         </div>
+       <div id="columna">
+         <div id="sectionCubos">
+            <span onclick="this.parentNode.style.display = 'none';" class="closebtn">&times;</span>
+            <form id="cubosForm11" class=formularioCubos></form>
+         </div>
+		 </fieldset>
+      <fieldset id="pimg02">
+          <div id="section2">
+             <div id="secondcontrol">
+               <form> 
+                 <input type="button" id="mostrarAprovisionadores" value="LISTAR APROVISIONADORES"/>				 
+               </form>
+             </div>
+
+             <div id="secondcontrol1">
+                <form> 
+                  <input type="text"  id="datoAprovisionador" placeholder="Ingrese Aprovisionador a revisar"/> 
+                  <input type="button" id="revisarAprov" value="REVISAR APROVISIONADOR"/>
+				  <input type="button" id="vaciarCubos" value="Reset"/>
+                </form>
+             </div>
+         </div>
+
+         <div id="sectionsecond"><form id="cubosForm21" class=estilotextarea></form>
+         </div>
+         <div id="sectionsecond1"><form id="cubosForm22" class=estilotextarea1></form>   
+         </div>   
+     </fieldset>
+
+             
+      <fieldset id="pimg03">
+         <div id="section3">
+           <div id="thirdcontrol">
+             <form> 
+				<input type="text"  id="unAprov" placeholder=" Ingrese Aprovisionador a ejecutar"/> 
+				<input type="button" id="ejecAprov" value="Ejecutar Aprovisionador"/>
+				<input type="button" id="vaciarAprov" value="Reset"/>
+             </form>
+           </div>
+         </div>
+
+         <div id="sectionthird">
+           <textarea id="textAreaCubo" class=estilotextarea2> </textarea>
+         </div>
+      </fieldset>
+	  
+	<fieldset id="pimg04">
+         <div id="section3">
+           <div id="control04">
+				 <form> 
+					<input type="button" id="listarUsersAprovisionador" value="LISTAR USUARIOS"/>
+					<input type="button" id="listarAprovisionadores" value="LISTAR APROVISIONADORES"/>
+					<input type="text"  id="aprovisionador" placeholder=" Ingrese Aprovisionador a asignar"/> 
+					<input type="text"  id="usuarioAprovisionador" placeholder=" Ingrese Usuario"/> 
+					<input type="button" id="asignarAprovisionador" value="GUARDAR"/>
+					<input type="button" id="vaciarUsuariosAprovisionadores" value="Reset"/>
+				 </form>
+           </div>
+         </div>
+         
+				<div id="sectionthird2"><form id="cubosForm41" class=estiloform33></form></div>
+				<div id="sectionthird3"><form id="cubosForm42" class=estiloform34></form></div> 
+        
+    </fieldset>
+      
+     
+</fieldset>
+      
+<fieldset id="first">
+      
+        <div id="contentbar">
+          <ul id="progressbar_4">
+           <li id="timg1"onclick="crear_extractor()">Crear Extractor</li>
+           <li id="timg2"onclick="revisar_extractor()">Revisar Extractor</li>
+           <li id="timg3"onclick="simular_extractor()">Simular Extractor</li>
+           <li id="timg4" style="display:none" onclick="asignar_extractor()">Asignar Extractor</li>
+          </ul>
+       </div>
+        <fieldset id="pimg1">
+          <div id="section1">
+           <div id="firstcontrol">
+             <form> <input type="button" id="lista" value="Mostrar datos"/> </form>
+           </div>
+
+          <div id="firstcontrol1">
+             <form id="contenedor">
+	        <label id="labelPer">Periodo: <label/>
+		<select id="selectPer" name="selectPer" type="text"> 
+	         <option selected>---Elegir Periodo---</option>	
+	        <select/>
+	        <input type="text"  id="nombreEsquema" placeholder=" Ingrese nombre de extractor"/>
+	        <input type="button" id="prueba" value="GUARDAR EXTRACTOR"/>
+			<input type="button" id="editarEsq" value="EDITAR EXTRACTOR"/>
+			<input type="button" id="eliminarEsq" value="ELIMINAR EXTRACTOR"/>
+			<input type="button" id="vaciarCampos" value="Reset"/>
+      	     </form>
+          </div>
+         </div>
+       <div id="columna">
+         <div id="sectionfirst">
+            <span onclick="this.parentNode.style.display = 'none';" class="closebtn">&times;</span>
+            <form id="formulario" class=estiloform></form>
+         </div>
+
+         <div id="sectionfirst1">
+            <span onclick="this.parentNode.style.display = 'none';" class="closebtn">&times;</span>
+            <form id="formulario1" class=estiloform></form>
+         </div>	
+
+         <div id="sectionfirst2">
+            <span onclick="this.parentNode.style.display = 'none';" class="closebtn">&times;</span>
+            <form id="formulario2" class=estiloform></form>
+         </div>	
+
+         <div id="sectionfirst3">
+            <span onclick="this.parentNode.style.display = 'none';" class="closebtn">&times;</span> 
+            <form id="formulario3" class=estiloform></form>
+         </div>
+      </div>
+      </fieldset>
+
+              
+      <fieldset id="pimg2">
+          <div id="section2">
+             <div id="secondcontrol">
+               <form> 
+                 <input type="button" id="mostrarEsquemas" value="LISTAR EXTRACTORES"/>				 
+               </form>
+             </div>
+
+             <div id="secondcontrol1">
+                <form> 
+                  <input type="text"  id="datoEsquema" placeholder="Ingrese extractor a revisar"/> 
+                  <input type="button" id="query" value="REVISAR EXTRACTOR"/>
+				  <input type="button" id="vaciarEsq" value="Reset"/>
+                </form>
+             </div>
+         </div>
+
+         <div id="sectionsecond"><textarea id="textarea2" class=estilotextarea></textarea>
+         </div>
+         <div id="sectionsecond1"><form id="formulario4" class=estilotextarea1></form>   
+         </div>   
+     </fieldset>
+
+             
+      <fieldset id="pimg3">
+         <div id="section3">
+           <div id="thirdcontrol">
+             <form> 
+				<input type="text"  id="unEsquema" placeholder=" Ingrese extractor a ejecutar"/> 
+				<input type="button" id="ejecEsq" value="Ejecutar Extractor"/>
+				<input type="button" id="vaciarQuery" value="Reset"/>
+             </form>
+           </div>
+         </div>
+
+         <div id="sectionthird">
+           <textarea id="untextarea" class=estilotextarea2> </textarea>
+         </div>
+      </fieldset>
+	  
+	<fieldset id="pimg4">
+         <div id="section3">
+           <div id="control4">
+				 <form> 
+					<input type="button" id="listarUsersExtractor" value="LISTAR USUARIOS"/>
+					<input type="button" id="listarExtractores" value="LISTAR EXTRACTORES"/>
+					<input type="text"  id="extractor" placeholder=" Ingrese Extractor a asignar"/> 
+					<input type="text"  id="usuarioExtractor" placeholder=" Ingrese Usuario"/> 
+					<input type="button" id="asignarExtractor" value="GUARDAR"/>
+					<input type="button" id="vaciarUsuariosExtractores" value="Reset"/>
+				 </form>
+           </div>
+         </div>
+         
+				<div id="sectionthird2"><form id="formulario14" class=estiloform33></form></div>
+				<div id="sectionthird3"><form id="formulario15" class=estiloform34></form></div> 
+        
+    </fieldset>
+      
+     
+</fieldset>
+      
+
+<fieldset id="second">
+       
+       <div id="contentbar">
+          <ul id="progressbar">
+          <li id="timg21" onclick="crear_Componente()"  >Crear Componente</li>
+          <li id="timg22" onclick="revisar_Componente()" >Revisar Componente</li>
+          <li id="timg23" style="display:none" onclick="asignar_Componente()" >Asignar Componente</li>
+          </ul>
+       </div>
+
+       <fieldset id="pimg21">
+            <div id="section2">
+             <div id="secondcontrol5">
+               <form> 
+                 <input type="button" id="mostrarEsquemas2" value="LISTAR EXTRACTORES"/>
+				 <input type="button" id="listarInd" value="LISTAR PARAMETROS"/>
+               </form>
+             </div>
+
+             <div id="secondcontrol2">
+                <form> 
+                  <input type="text"  id="datoEsquema2" placeholder="Ingrese extractor a revisar"/> 
+                  <input type="button" id="query2" value="MOSTRAR EXTRACTOR"/>
+					<input type="text"  id="nombreComponente" placeholder="Ingrese nombre de Componente"/> 
+					<input type="button" id="saveComp" value="GUARDAR COMPONENTE"/>
+					<input type="button" id="editarComp" value="EDITAR COMPONENTE"/>
+					<input type="button" id="eliminarComp" value="ELIMINAR COMPONENTE"/>
+					<input type="button" id="vaciarCompo" value="Reset"/>					
+                </form>
+             </div>
+         </div>
+
+         <div id="sectionsecond"><textarea id="textarea8" class=estilotextarea></textarea>
+         </div>
+         <div id="sectionsecond1"><form id="formulario8" class=estilotextarea1></form>   
+         </div>   
+     </fieldset>
+       
+
+       <fieldset id="pimg22">
+           <div id="section2">
+             <div id="secondcontrol">
+               <form> 
+                 <input type="button" id="mostrarCompo" value="LISTAR COMPONENTES"/>
+               </form>
+             </div>
+
+             <div id="secondcontrol1">
+                <form> 
+                  <input type="text"  id="nombreCompo" placeholder="Ingrese Componente a revisar"/> 
+                  <input type="button" id="buscarCompo" value="MOSTRAR COMPONENTE"/>
+				  <input type="button" id="vaciarComponente" value="Reset"/>
+                </form>
+             </div>
+			</div>
+
+			<div id="divsecond" class=estiloform22><form id="formComp" class=estilorevisar></form></div> 
+			<div id="sectionsecond1"><form id="formulario5" class=estilotextarea1></form></div>               
+       </fieldset>
+
+       <fieldset id="pimg23">
+           <div id="section3">
+			   <div id="thirdcontrol3">
+				 <form> 
+					<input type="button" id="listarUsersComponente" value="LISTAR USUARIOS"/>
+					<input type="button" id="listarComponentes" value="LISTAR COMPONENTES"/>
+					<input type="text"  id="componente" placeholder=" Ingrese Componente a asignar"/> 
+					<input type="text"  id="usuarioComponente" placeholder=" Ingrese Usuario"/> 
+					<input type="button" id="asignarComponente" value="GUARDAR"/>
+					<input type="button" id="vaciarUsuariosComponente" value="Reset"/>
+				 </form>
+				</div>
+			</div>
+				<div id="sectionthird2"><form id="formulario23" class=estiloform33></form></div>
+				<div id="sectionthird3"><form id="formulario24" class=estiloform34></form></div> 
+       </fieldset>
+
+       
+</fieldset>
+
+
+
+<fieldset id="third">
+       <div id="contentbar">
+          <ul id="progressbar" name="opcionesMetricas">
+           <li id="timg31"onclick="crear_metrica()">Crear Metrica</li>
+           <li id="timg32"onclick="revisar_metrica()">Revisar Metrica</li>
+			<li id="timg33" style="display:none" onclick="asignar_metrica()">Asignar Metrica</li>
+			
+          </ul>
+       </div>
+
+       <fieldset id="pimg31">
+            <div id="section1">
+             <div id="firstcontrol">
+               <form> 
+                 <input type="button" id="mostrarCompo2" value="LISTAR COMPONENTES"/>
+				 <input type="button" id="mostrarMetri" value="LISTAR METRICAS"/>
+               </form>
+             </div>
+             <div id="secondcontrol3">
+                <form> 
+                  <input type="text"  id="nombreMetri" placeholder="Ingrese nombre de la Metrica"/> 
+				  <input type="button" id="crearMetrica" value="GUARDAR METRICA"/>
+				  <input type="button" id="editarMetrica" value="EDITAR METRICA"/>
+				  <input type="button" id="eliminarMetrica" value="ELIMINAR METRICA"/>
+				  <input type="button" id="vaciarMetrica" value="Reset"/>
+                </form>
+             </div>
+			</div>
+
+         
+			<div id="sectionsecond1"><form id="formulario31" class=estilotextarea1></form></div>               
+      
+       </fieldset>
+
+       <fieldset id="pimg32">
+            <div id="section2">
+		
+			 
+             <div id="secondcontrol4">
+                <form> 
+				  <input type="button" id="listarMetri" value="LISTAR METRICAS"/>
+                  <input type="text"  id="nombreMetrica" placeholder="Ingrese Metrica a revisar"/> 
+				  <input type="button" id="buscarMetri" value="MOSTRAR METRICA"/>
+				  <input type="button" id="vaciarMetrica2" value="Reset"/>
+                </form>
+             </div>
+			</div>
+			
+			<div id="divthird" class=estiloform32><form id="formMetri" class=estilorevisar></form></div> 
+			<div id="sectionsecond1"><form id="formulario32" class=estilotextarea1></form></div>               
+       </fieldset>
+
+       <fieldset id="pimg33">
+			<div id="section3">
+			   <div id="thirdcontrol3">
+				 <form> 
+					<input type="button" id="listarUsers" value="LISTAR USUARIOS"/>
+					<input type="button" id="listarMetricas" value="LISTAR METRICAS"/>
+					<input type="text"  id="metrica" placeholder=" Ingrese Metrica a asignar"/> 
+					<input type="text"  id="usuario" placeholder=" Ingrese Usuario"/> 
+					<input type="button" id="asignarMetrica" value="GUARDAR"/>
+					<input type="button" id="vaciarUsuarios" value="Reset"/>
+				 </form>
+				</div>
+			</div>
+				<div id="sectionthird2"><form id="formulario33" class=estiloform33></form></div>
+				<div id="sectionthird3"><form id="formulario34" class=estiloform34></form></div> 				
+       </fieldset>
+
+       
+</fieldset>
+
+</body>
+</html>

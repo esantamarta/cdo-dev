@@ -1,0 +1,212 @@
+﻿
+
+.content{
+width:96%;
+margin:0px 0px 0px 0px 
+}
+
+.content1{
+width:99%;
+margin:0px 0px 0px 0px 
+}
+
+
+
+#progressbar{
+margin:0px 0px 0px 0px;
+padding:20px;
+font-size:20px
+background-color: #6e0a06;
+cursor: pointer;
+}
+
+#progressbar_4{
+margin:0px 0px 0px 0px;
+padding:20px;
+font-size:20px
+background-color: #6e0a06;
+cursor: pointer;
+}
+
+
+#timg1{
+color:red
+}
+
+
+
+#timg21{
+color:red
+
+}
+
+#timg31{
+color:red
+
+}
+
+#timg41{
+color:red
+
+}
+
+
+#pimg1{
+width:100%;
+display:block;
+}
+
+
+#pimg21{
+width:100%;
+display:block;
+}
+
+#pimg31{
+width:100%;
+display:block;
+}
+
+#pimg41{
+width:100%;
+display:block;
+}
+
+
+
+#contentbar {
+	width: 1005;
+	margin: 0px;
+	text-align: center;
+}
+
+
+
+
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	counter-reset: step;
+        
+}
+#progressbar_4 {
+	margin-bottom: 30px;
+	overflow: hidden;
+	counter-reset: step;
+        
+}
+#progressbar_4 li {
+	list-style-type: none;
+	color: GRAY;
+	text-transform: uppercase;
+	font-size: 11px;
+        font-weight: 100;
+	width: 24.33%;
+	float: left;
+	position: relative;
+        
+}
+#progressbar_4 li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: white;
+	background: #6e0a06;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+        
+}
+
+/*progressbar connectors*/
+
+#progressbar_4 li:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #9f9f9f;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+        cursor: pointer;
+}
+
+#progressbar_4 li:first-child:after {
+		content: none; 
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: GRAY;
+	text-transform: uppercase;
+	font-size: 11px;
+        font-weight: 100;
+	width: 33.33%;
+	float: left;
+	position: relative;
+        
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: white;
+	background: #6e0a06;
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+        
+}
+
+/*progressbar connectors*/
+
+#progressbar li:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #9f9f9f;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+        cursor: pointer;
+}
+
+#progressbar li:first-child:after {
+		content: none; 
+}
+
+
+ul#navlist
+            {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            float: left;
+            width: 100%;
+            height:100px;
+            
+            background-color: #ee332b;;
+            }
+ul#navlist li { display: inline; }
+
+
+ul li { display: inline; }
+
+
+.closebtn {float: right;
+           font-size: 18px;
+           font-weight: bold;
+           color: gray;
+           cursor: pointer;
+           margin:0px 7px 0px 5px;}
+.closebtn:hover {color: #000;} 
+
+
+

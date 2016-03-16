@@ -1,0 +1,3120 @@
+﻿@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+
+
+/* DOM
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+fieldset{
+display:none;
+width:100%;
+margin:15px 15px 15px 0px;
+border-radius:2px;
+box-shadow:1px 1px 1px 1px white
+}
+
+/* BARRA DE NAVEGACION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+#nav {
+margin:20px 20px 20px 0px; }
+            
+
+ul#navlist
+            {
+            padding: 0;
+            margin:20px 20px 20px 0px;
+            margin: 0;
+            list-style-type: none;
+            float: left;
+            width: 100%;
+            height:100px;
+            background-color: #ee332b;;
+            }
+ul#navlist li { display: inline;
+margin:20px 20px 20px 0px; }
+            
+
+
+
+
+#next_btn0
+{
+ float: left;
+ width: 200px;
+ height:100%;
+ color: #fff;
+ background-color: red;
+ margin:0px 0px 0px 150px;
+ border: 1px solid red;
+ 
+            }
+            
+            
+#next_btn1
+{
+ float: left;
+ width: 200px;
+ height:100%;
+ color: #fff;
+ background-color: red;
+ margin:0px 0px 0px 0px;
+ border: 1px solid red;
+ 
+            }
+
+#next_btn2
+{
+ float: left;
+ width: 200px;
+ height:100%;
+ color: #fff;
+ background-color: red;
+ margin:0px 0px 0px 0px;
+ border: 1px solid red;
+ 
+            }
+
+#next_btn3
+{
+ float: left;
+ width: 200px;
+ height:100%;
+ color: #fff;
+ background-color: red;
+ margin:0px 0px 0px 0px;
+ border: 1px solid red;
+}
+
+#logo {
+ float: left;
+ width: 95%;
+ margin:0px 0px 0px 30px;
+}
+
+
+/* Buttons MENU VAV PRINCIPAL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#next_btn0,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  width: 200px;
+ height:100%;
+  color: #red;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+#next_btn0:hover,
+
+#next_btn0:focus
+ {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  outline: 0; }
+
+
+
+#next_btn1,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  width: 200px;
+ height:100%;
+  color: #red;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+#next_btn1:hover,
+
+#next_btn2:focus
+ {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  outline: 0; }
+
+#next_btn2,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  width: 200px;
+ height:100%;
+  color: #red;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+#next_btn2:hover,
+
+#next_btn2:focus
+ {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  outline: 0; }
+
+
+#next_btn3,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  width: 200px;
+ height:100%;
+  color: #red;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+#next_btn3:hover,
+
+#next_btn3:focus
+ {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  outline: 0; }
+
+
+
+
+/* PAGINA 1
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#first{
+width:100%;
+}
+
+
+#section1{
+width:20%;
+float:left;
+margin:0px 15px 0px 0px;
+}
+
+
+#firstcontrol{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 0px 15px;
+border-radius:2px 2px 0px 0px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY
+}
+
+#firstcontrol1{
+width:100%;
+height:240px;
+display:block;
+margin:0px 30px 0px 15px;
+border-radius:0px 0px 2px 2px;
+background: linear-gradient( #242424 30%, black );
+box-shadow:2px 2px 0px 0px GRAY
+}
+
+#firstcontrol01{
+width:100%;
+height:200px;
+display:block;
+margin:0px 30px 0px 15px;
+border-radius:0px 0px 2px 2px;
+background: linear-gradient( #242424 30%, black );
+box-shadow:2px 2px 0px 0px GRAY
+}
+
+#columna{
+width:76%;
+float:left;
+border: 0px solid #242424;
+margin:0px 15px 0px 0px;
+}
+
+#sectionCubos{
+width:900px;
+height:290px;
+margin:3px 3px 3px 1px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+}
+
+#sectionfirst{
+width:900px;
+height:200px;
+margin:3px 3px 3px 1px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+}
+
+#sectionfirst1{
+width:900px;
+height:200px;
+margin:3px 3px 3px 1px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+}
+
+#sectionfirst2{
+width:900px;
+height:200px;
+margin:3px 3px 3px 1px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+}
+
+#sectionfirst3{
+width:900px;
+height:200px;
+margin:3px 3px 3px 1px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+}
+
+/* PAGINA 2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+#second{
+width:100%;
+}
+
+#section2{
+width:20%;
+float:left;
+
+}
+
+#secondcontrol{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 0px 15px;
+border-radius:2px 2px 0px 0px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY
+}
+
+#secondcontrol5{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 50px 15px;
+border-radius:2px 2px 0px 0px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY
+}
+
+#secondcontrol1{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 30px 15px;
+border-radius:0px 0px 2px 2px;
+background: linear-gradient( #242424 30%, black );
+box-shadow:2px 2px 0px 0px GRAY;
+}
+
+#secondcontrol2{
+width:100%;
+height:286px;
+display:block;
+margin:-50px 0px 30px 15px;
+border-radius:0px 0px 2px 2px;
+background: linear-gradient( #242424 30%, black );
+box-shadow:2px 2px 0px 0px GRAY;
+}
+
+#secondcontrol3{
+width:100%;
+height:215px;
+display:block;
+margin:0px 0px 0px 15px;
+border-radius:2px 2px 0px 0px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY
+}
+
+#secondcontrol4{
+width:100%;
+height:220px;
+display:block;
+margin: 0px 0px 0px 15px;
+border-radius:2px 2px 0px 0px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY
+}
+
+#sectionsecond{
+width:20%;
+height:296px;
+margin:0px 0px 0px 30px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left
+}
+#sectionsecond1{
+width:55%;
+height:293;
+margin:0px 0px 0px 10px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left;
+overflow-y: scroll;
+}
+
+
+/* PAGINA 3
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#third{
+width:100%;
+}
+
+#section3{
+width:20%;
+float:left;
+
+}
+
+#thirdcontrol{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 0px 15px;
+border-radius:2px 2px 2px 2px;
+background: linear-gradient( #242424 80%, black );
+box-shadow:2px 2px 2px 0px GRAY;
+}
+
+#thirdcontrol1{
+width:100%;
+height:150px;
+display:block;
+margin:0px 0px 0px 15px;
+border-radius:0px 0px 2px 2px;
+background: #242424;
+box-shadow:2px 2px 0px 0px #9f9f9f;
+}
+
+#thirdcontrol3{
+width:100%;
+height: 420px;
+display:block;
+margin:0px 0px 0px 20px;
+border-radius:2px 2px 2px 2px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY;
+}
+
+#control4{
+width:100%;
+height: 430px;
+display:block;
+margin:0px 0px 0px 20px;
+border-radius:2px 2px 2px 2px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY;
+}
+
+#control04{
+width:100%;
+height: 360px;
+display:block;
+margin:0px 0px 0px 20px;
+border-radius:2px 2px 2px 2px;
+background: linear-gradient( #717171 10% , #242424 );
+box-shadow:2px 2px 2px 0px GRAY;
+}
+
+#sectionthird{
+width:40%;
+height:293px;
+margin:0px 0px 0px 20px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left
+}
+
+#sectionthird2{
+width:30%;
+height:293px;
+margin:0px 0px 0px 30px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left
+}
+
+#sectionthird3{
+width:30%;
+height:293px;
+margin:0px 0px 0px 30px;
+border-radius:0px 0px 0px 0px;
+background: white;
+border: 0px solid #dbdbdb;
+box-shadow:1px 1px 1px 1px GRAY;
+float:left
+}
+
+
+/* INPUTS TEXTO
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+#nombreEsquema{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; 
+}
+
+#nombreAprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; 
+}
+
+#datoAprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; 
+}
+
+#aprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; 
+}
+
+#usuarioAprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; 
+}
+
+
+
+
+#datoEsquema{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 100px 0px 30px;
+  box-sizing: border-box; 
+}
+
+
+
+#datoEsquema2{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:4px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:15px 100px 0px 30px;
+  box-sizing: border-box; 
+}
+
+
+
+#selectPer{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:5px 0px 0px 30px;
+}
+
+
+#unAprov{
+  display: inline-block;
+  width: 210px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#unEsquema{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#nombreCompo{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#nombreComponente{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#nombreMetri{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#nombreMetrica{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#metrica{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#componente{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#extractor{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin:30px 0px 0px 30px;
+}
+
+#usuario{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin: 10px 0px 25px 30px;
+}
+
+#usuarioComponente{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin: 10px 0px 25px 30px;
+}
+
+#usuarioExtractor{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  border:1px solid #242424;
+  border-radius:0px;
+  background: white;
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  margin: 10px 0px 25px 30px;
+}
+
+h2,p{
+font-size:10px
+text-align:center;
+}
+
+
+
+
+/* Buttons FIRSTCONTROL AND SECONDCONTROL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#lista0
+ {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#lista0:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+
+#listarCampos {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#listarCampos:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+
+#lista
+ {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#lista:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#vaciarCamposCubos {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:15px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarCamposCubos:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:15px 30px 0px 190px;}  
+  
+#vaciarCampos {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:15px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarCampos:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:15px 30px 0px 190px;}
+ 
+
+#vaciarAprov {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 190px;} 
+  
+#vaciarEsq {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarEsq:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 190px;}
+
+#vaciarCubos {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:50px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarCubos:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:50px 30px 0px 190px;}  
+
+#vaciarQuery {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarQuery:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 190px;}
+
+#vaciarCompo {
+  display: inline-block;
+  width: 75px;
+  height:15px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:15px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarCompo:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:15px 30px 0px 190px;}
+  
+#vaciarComponente {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 185px;
+  box-sizing: border-box; }
+
+#vaciarComponente:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 185px;}
+
+#vaciarCompo:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:15px 30px 0px 190px;}
+  
+#vaciarMetrica {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 9px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarMetrica:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:9px 30px 0px 190px;} 
+
+#vaciarMetrica2 {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 185px;
+  box-sizing: border-box; }
+
+#vaciarMetrica2:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 185px;}
+  
+#vaciarUsuarios {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 20px 30px 0px 185px;
+  box-sizing: border-box; }
+
+#vaciarUsuarios:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin: 20px 30px 0px 185px;}
+
+#vaciarUsuariosExtractores {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 30px 30px 0px 185px;
+  box-sizing: border-box; }
+
+#vaciarUsuariosExtractores:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin: 30px 30px 0px 185px;}   
+  
+#vaciarUsuariosComponente {
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 20px 30px 0px 185px;
+  box-sizing: border-box; }
+
+#vaciarUsuariosComponente:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin: 20px 30px 0px 185px;}    
+  
+#editarEsq {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#editarEsq:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+  
+#eliminarEsq {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#eliminarEsq:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#editarComp {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#editarComp:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#eliminarComp {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#eliminarComp:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}  
+
+#editarMetrica {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#editarMetrica:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#eliminarMetrica {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#eliminarMetrica:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}   
+
+#guardarAprov {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#guardarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+  
+#prueba {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#prueba:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#saveComp {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#saveComp:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#mostrarEsquemas {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#mostrarEsquema:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+
+#mostrarEsquemas2 {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#mostrarEsquema2:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#listarInd {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#listarInd:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 30px 30px;}
+
+#revisarAprov {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; }
+
+#revisarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}  
+  
+#query {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; }
+
+#query:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#query2 {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 0px 0px 30px;
+  box-sizing: border-box; }
+
+#query2:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#ejecEsq {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#ejecEsq:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+  
+#ejecAprov {
+  display: inline-block;
+  width: 210px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#ejecAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#mostrarCompo {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#mostrarCompo:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#mostrarCompo2 {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#mostrarCompo2:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#buscarCompo {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#buscarCompo:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#mostrarMetri {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#mostrarMetri:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 30px 30px;}
+  
+ #listarMetri {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarMetri:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;}
+
+#listarExtractores {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarExtractores:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}   
+  
+#listarComponentes {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarComponentes:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}  
+  
+#listarMetricas {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarMetricas:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}  
+
+#listarUsersExtractor {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarUsersExtractor:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;} 
+  
+#listarUsers {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarUsers:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;} 
+
+#listarUsersComponente {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarUsersComponente:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;} 
+  
+ #asignarMetrica {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#asignarMetrica:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 30px 30px;}
+
+#asignarExtractor {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#asignarExtractor:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 30px 30px;} 
+  
+#asignarComponente {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#asignarComponente:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 30px 30px;} 
+
+#buscarMetri {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#buscarMetri:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#crearMetrica {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#crearMetrica:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+
+#next1
+ {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#next1:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+
+#next2
+ {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#next2:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+
+
+#prev1
+ {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#prev1:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#prev2 {
+  display: inline-block;
+  width: 200px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 30px 30px;
+  box-sizing: border-box; }
+
+#prev2:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin:30px 30px 30px 30px;}
+
+#selectAllCubos{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectAllCubos:focus{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;	
+}  
+  
+#selectAll{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectAll:focus{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;	
+}
+
+#selectNoneCubos{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNoneCubos:focus{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNone{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNone:focus{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectAll1{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectAll1:focus{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNone1{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNone1:focus{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectAll2{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectAll2:focus{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );
+	font-size: 10px;
+}
+
+#selectNone2{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectNone2:focus{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectAll3{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectAll3:focus{
+	width: 100px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectNone3{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+#selectNone3:focus{
+	width: 110px;
+	height: 28px;
+	background-color: white;
+	background: linear-gradient(white 30%, gray );	
+	font-size: 10px;
+}
+
+
+
+#editarAprov {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#editarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#eliminarAprov {
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#eliminarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+
+
+
+#mostrarAprovisionadores{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#mostrarAprovisionadores:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;} 
+
+
+
+
+
+#listarUsersAprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#listarUsersAprovisionador:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+
+#listarAprovisionadores{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 15px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarAprovisionadores:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 15px 30px 15px 30px;} 
+
+#listarAsignacionesAp{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarAsignacionesAp:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;} 
+  
+#listarAsignacionesExt{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarAsignacionesExt:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}   
+
+#listarAsignacionesComp{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarAsignacionesComp:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}
+
+#listarAsignacionesMet{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #95120d;
+  background: linear-gradient(#ee332b 30%, #95120d );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin: 0px 30px 15px 30px;
+  box-sizing: border-box; }
+
+#listarAsignacionesMet:focus {
+  color: white;
+  border-color: red;
+  background-color: #95120d;
+  background: linear-gradient( #95120d 30%, #ee332b );
+  outline: 0; 
+  margin: 0px 30px 15px 30px;}   
+
+#asignarAprovisionador{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#asignarAprovisionador:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}
+
+#desasignarAprov{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:5px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#desasignarAprov:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:5px 30px 0px 30px;}  
+  
+#desasignarComp{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:-10px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#desasignarComp:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:-10px 30px 0px 30px;}    
+  
+#desasignarExt{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:-10px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#desasignarExt:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:-10px 30px 0px 30px;} 
+
+#desasignarMet{
+  display: inline-block;
+  width: 200px;
+  height:100%;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:-10px 30px 0px 30px;
+  box-sizing: border-box; }
+
+#desasignarMet:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:-10px 30px 0px 30px;}     
+
+#vaciarUsuariosAprovisionadores{
+  display: inline-block;
+  width: 75px;
+  height:27px;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  background: linear-gradient(white 30%, gray );
+  border-radius: 0px;
+  border: 0px solid #bbb;
+  cursor: pointer;
+  margin:30px 30px 0px 190px;
+  box-sizing: border-box; }
+
+#vaciarUsuariosAprovisionadores:focus {
+  color: black;
+  border-color: red;
+  background-color: white;
+  background: linear-gradient( gray 30%, white );
+  outline: 0; 
+  margin:30px 30px 0px 190px;}
+
+
+
+
+
+
+/* TEXT AREAS Y FORMS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.estilotextarea{
+        height:292px;
+	width:97%;
+	border:0px solid #9F9F9F;
+        margin:0px 0px 0px 5px;
+}
+
+.estilorevisar{
+        height:299px;
+	width:98%;
+	border:0px solid #9F9F9F;
+        margin:0px 0px 0px 10px;
+	overflow-y: scroll;
+}
+
+.estilotextarea1{
+        height:299px;
+	width:98%;
+	border:0px solid #9F9F9F;
+        margin:0px 0px 0px 5px;
+}
+
+.estilotextarea2{
+        height:292px;
+	width:870px;
+	border:1px solid #9F9F9F;
+        margin:0px 0px 0px 0px;
+}	
+	
+.formularioCubos{
+	width:99%;
+	border:0px solid #6E0A06;
+    height:260px;
+    margin:5px 5px 5px 5px;
+    overflow-y: scroll;
+}
+
+.estiloform{
+	width:99%;
+	border:0px solid #6E0A06;
+        height:167px;
+        margin:5px 5px 5px 5px;
+        overflow-y: scroll;
+}
+
+.estiloform22{
+	width:20%;
+	height:299px;
+	margin:0px 0px 0px 30px;
+	border-radius:0px 0px 0px 0px;
+	background: white;
+	border: 0px solid #dbdbdb;
+	box-shadow:1px 1px 1px 1px GRAY;
+	float:left
+}
+
+.estiloform32{
+	width:20%;
+	height:299px;
+	margin:0px 0px 0px 30px;
+	border-radius:0px 0px 0px 0px;
+	background: white;
+	border: 0px solid #dbdbdb;
+	box-shadow:1px 1px 1px 1px GRAY;
+	float:left
+}
+
+.estiloform33{
+        height:293px;
+	width:98%;
+	border:0px solid #9F9F9F;
+        margin:0px 0px 0px 10px;
+	overflow-y: scroll;
+}
+
+.estiloform34{
+	width:99%;
+	border:0px solid #6E0A06;
+        height:293px;
+        margin:0px 5px 5px 5px;
+        overflow-y: scroll;
+}
+
+
+
+#username{
+	font-family: Arial;
+	width: 100px;
+	color:#FFF;
+	font-size:12px;	
+	background: transparent;
+	float: right;
+	border: 1px solid #ee332b;
+	margin:5px 5px 5px 5px;
+}
+
+.estiloLabel{
+	margin:5px 5px 5px 5px;
+        float: right;
+	font-size: 12px;
+	font-family: Arial;
+	background-color: transparent;
+	color: #fff;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  float:left }
+
+input[type="text"] {
+width: 120px;}  
+
+fieldset {
+  padding: 0;
+  border-width: 0; }
+
+
+
+textarea {
+  min-height: 65px;
+    padding-bottom: 1px ; 
+    margin:0px 0px 0px 0px;
+}
+
+input{
+    margin:0px 5px 2px 5px;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid black;
+  outline: 0; }

@@ -1,0 +1,32 @@
+﻿
+*{font-family: arial;}
+
+
+#caja1{ border-color:red;
+        border-style: solid; 
+        border-width:1px;
+        margin:7px; padding:7px;
+        
+}
+
+#caja2{ margin:0px 7px 7px 10px; 
+        border-color:red;
+        border-style: solid;
+        border-width:1px;
+        width:380px; 
+        float:left; 
+        height:150px; }
+
+
+#caja3{ margin:0 7px 7px 0px; 
+        border-color:green;
+        width:100px; 
+        float: left; 
+        height: 200px;}
+
+#caja4{border-color:red; 
+       border-style: solid;
+       border-width:1px;
+       clear:both; 
+       height:55px;
+       margin:7px; padding:7px;}
